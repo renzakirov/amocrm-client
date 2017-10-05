@@ -5,7 +5,7 @@
     <a href="https://travis-ci.org/esporo-org/amocrm-client"><img alt="Travis" src="https://img.shields.io/travis/esporo-org/amocrm-client.svg?style=flat-square"></a>
     <a href="https://codecov.io/gh/esporo-org/amocrm-client"><img alt="Codecov branch" src="https://img.shields.io/codecov/c/github/esporo-org/amocrm-client/master.svg?style=flat-square"></a>
     <a href="https://goreportcard.com/report/github.com/esporo-org/amocrm-client"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/esporo-org/amocrm-client?style=flat-square"></a>
-  <a href="http://godoc.org/github.com/esporo-org/amocrm-client"><img alt="Go Doc" src="https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square"></a>
+  <a href="http://godoc.org/github.com/esporo-org/amocrm-client/amo"><img alt="Go Doc" src="https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square"></a>
   </p>
 </p>
 
