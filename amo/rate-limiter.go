@@ -20,8 +20,10 @@ func newDefaultRateLimiter() *defaultRateLimiter {
 	limiter := &defaultRateLimiter{}
 	limiter.limiter = make(chan empty)
 	go func() {
-		limiter.limiter <- empty{}
-		time.Sleep(time.Second)
+		for {
+			limiter.limiter <- empty{}
+			time.Sleep(time.Second)
+		}
 	}()
 	return limiter
 }
